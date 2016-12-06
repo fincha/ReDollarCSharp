@@ -1,0 +1,7 @@
+namespace DollarRecognition
+{
+    class DollarOne
+    {
+        
+    }
+}
