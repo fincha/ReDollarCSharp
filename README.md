@@ -1,4 +1,4 @@
-# Gesture Recognition
+# Dollar Gesture Recognizer
 
 Gesture Recognition with C# based on ReDollar. Development for Unity3D.
 
