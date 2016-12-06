@@ -13,15 +13,20 @@ namespace DollarRecognition
         public int normalPointCount = 40;
         public int normalSize = 200;
         public bool ignoreRotate = false;
+        public Vector vector;
+
         private Point firstPoint;
         private Point centroid;
         private float[] aabb;
         private double angle;
-        private Vector vector;
 
-        public Polyline(Point[] p, bool transform = false)
+        public Polyline(Point[] p)
         {
             points = p;
+        }
+
+        public void init(bool transform = false)
+        {
             origPoints = points;
             
             if (transform)

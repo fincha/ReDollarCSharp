@@ -59,7 +59,7 @@ namespace DollarRecognition
             return dot / Math.Sqrt(sum1 * sum2);
         }
 
-        public double cosDistance(Vector vector1, Vector vector2)
+        public static double cosDistance(Vector vector1, Vector vector2)
         {
             // return 1-Utils.cosSimilarity(vector1,vector2);
             double a = 0;
