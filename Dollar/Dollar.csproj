@@ -60,17 +60,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DollarOne.cs" />
-    <Compile Include="Gesture.cs" />
-    <Compile Include="Point.cs" />
-    <Compile Include="DollarOneTest.cs" />
-    <Compile Include="PointTest.cs" />
-    <Compile Include="Polyline.cs" />
-    <Compile Include="PolylineTest.cs" />
+    <Compile Include="Lib\DollarOne.cs" />
+    <Compile Include="Lib\Gesture.cs" />
+    <Compile Include="Lib\Point.cs" />
+    <Compile Include="Tests\DollarOneTest.cs" />
+    <Compile Include="Tests\PointTest.cs" />
+    <Compile Include="Lib\Polyline.cs" />
+    <Compile Include="Tests\PolylineTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils.cs" />
-    <Compile Include="Vector.cs" />
-    <Compile Include="VectorTest.cs" />
+    <Compile Include="Lib\Utils.cs" />
+    <Compile Include="Lib\Vector.cs" />
+    <Compile Include="Tests\VectorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
