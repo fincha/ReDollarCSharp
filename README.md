@@ -1,4 +1,6 @@
-# ReDollar C# Implementation
+# Gesture Recognition
+
+Gesture Recognition with C# based on ReDollar
 
 final readme is here: 
 
